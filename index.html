@@ -6,20 +6,67 @@
     <title>Jmans PinkFloyd Page</title>
     <link rel="stylesheet" href="style/style.css">
     <style>
+        body {
+            background-color: #000000;
+            color: #ffffff;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
         .header {
             display: flex;
-            flex-direction: row-reverse;
+            flex-direction:row;
             justify-content: space-between;
-            justify-content: left;
-            align-items: center;
         }
+
+        .main {
+            padding: 20px;
+            margin-left: 16%;
+            margin-right: 16%;
+        }
+
+        .column-wrapper {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .column1{
+            width: 44%;
+            border:#ffffff 1px solid;
+            font-size: 22px;
+            font-family: Arial, sans-serif;
+        }
+
+        .column2 {
+            display: flex;
+            flex-direction: column;
+            width:44%;
+            border:#ffffff 1px solid;
+            font-size: 17px;
+            font-family: Arial, sans-serif;
+        }
+
     </style>
 </head>
 <body>
     <div class="header">
-     <h1 style="color: #ffffff; text-align: center; font-size: 100px; border: 1px solid #ffffff; width: 100%; height: 50%;" >Jmans PinkFloyd Page</h1>
-     <img src="C:\Users\453348\OneDrive - The College of West Anglia\repositories\FlexBox-week-2-\pinkfloyd dsotm.jpg" alt="pink floyd  dsotm" width="16%" height="16%">
+        <img src="C:\Users\453348\OneDrive - The College of West Anglia\repositories\FlexBox-week-2-\pinkfloyd dsotm.jpg" alt="pink floyd  dsotm" width="16%" height="16%">
+        <h1 style="color: #ffffff; text-align: center; font-size: 100px; border: 1px solid #ffffff; width: 100%; height: 50%;" >Jmans PinkFloyd Page</h1>
     </div>
-    
+    <div class="main">
+        <article>
+            <h2>About Pink Floyd</h2>
+            <div class="column-wrapper">
+                <div class="column1"> <!-- This is the left column -->
+                    <p>Pink Floyd were an English rock band formed in London in 1965. They achieved international acclaim with their progressive and psychedelic music. Distinguished by their use of philosophical lyrics, sonic experimentation, extended compositions, and elaborate live shows, they are one of the most commercially successful and influential groups in popular music history. I am personally a massive fan of "lve at pompei" which was recorded in 1971 and released in 1972 on film, filmed in the actual ruins of pompeii, they played tracks from their previous albums such as "Echoes" and "One of These Days" these are tracks from their album "Meddle" which was released in 1971, a fun fact about meddle, is that this album was the cornerstone to their unique sound, which ended up defining the genre of progressive rock, and psychedelic rock as a whole! </p>
+                </div>  
+                <div class="column2"> <!-- This is the right column -->
+                    <img src="C:\Users\453348\OneDrive - The College of West Anglia\repositories\FlexBox-week-2-\PinkFloyd discography.jpg" alt="Pink Floyd Discography" width="auto" height="auto">
+                    <p>Pink Floyd's discography includes several concept albums as you can see in the image above, this includes every album excluding: live albus, compilations, and singles. This ranges from their debut album "The Piper at the Gates of Dawn" which was released in 1967, to their final studio album "The Endless River" which was released in 2014. The band has sold over 250 million records worldwide, making them one of the best-selling music artists of all time. Their most famous albums include "The Dark Side of the Moon", "Wish You Were Here", and "The Wall", are among their best selling albums, and a fun fact is that all of these albums were primarily written by the bassist and one of the four founding members, Roger Waters, and when I say primarily written, he composed all of the concepts and 'stories' behind the albums, which makes Pink Floyd, so much more unique. Waters was the primary writer for the lyrics, however composing and writing the music, it was a group effort at times, but the main person recording and composing the music was David Gilmour, whom is actually not a founding member and was instead a stand-in for Syd Barrett, the orignal voice of Pink Floyd. and it is quite sad because they all loved Syd very deeply, and in the coming years when they finally found their voice, their sound, they produced an album in tribute to Syd, "Wish You Were Here", the song "Shine on You crazy Diamond" is a cryptogram for "SYD", and when they were producing this album at abbey road studios, Syd actually came into the studio and listened to the song "Shine on You Crazy Diamond", at first the band didnt recognize him, and it was Gilmour who recognized him and said to Nick Mason (the drummer) "Its Syd", and it was extremely saddening for the whole band, their friend had lost his mind, he went from skinny, dark curly hair and full of life. To fat, bald, no eyebrows and completely depressed, he had erratic behaviour, he brushed his teeth in the studio and was jumping up and down. This saddened everyone, but Waters broke down in tears realising his childhood bestfriend had been lost to Psychosis and Drug Abuse (psychedelics). In a way, Syd was and always has been the voice of Pink Floyd. </p>
+                </div> 
+            </div>
+        </article>
+    </div>
 </body>
-</html>
+</html> 
